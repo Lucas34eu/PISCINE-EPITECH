@@ -1,0 +1,57 @@
+body
+{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header
+{
+	background-color: blue;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+
+
+section:nth-of-type(1)
+{
+	background-color: green;
+	height: 200px;
+	margin-top: 10px;
+}
+
+section{
+
+
+
+}
+
+article
+{
+	background-color: yellow;
+	height: 15vh;
+	margin-top: 10px;
+}
+
+footer
+{
+	background-color: red;
+	height: 100px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 767px){
+	article
+	{
+		width: 100%;
+	}
+
+	article:nth-child(n+3)
+	{
+
+		display: none;
+	}
+
+}
+

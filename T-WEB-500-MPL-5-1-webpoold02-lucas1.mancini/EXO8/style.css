@@ -1,0 +1,31 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+#input 
+{
+    margin: .4rem;
+}
+
+.input ,p
+{
+
+font: 1rem 'Fira Sans', sans-serif;
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+

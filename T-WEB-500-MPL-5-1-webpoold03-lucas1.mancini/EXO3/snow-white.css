@@ -1,0 +1,35 @@
+html
+{
+background-color: yellow;
+}
+
+.a-great-style
+{
+	color:white;
+	font-size: 21px;
+	background-color :red;
+	font-family : Impact;
+
+}
+
+#paragraphe1
+{
+	color:white;
+	font-size: 21px;
+	background-color :black;
+}
+
+#paragraphe2
+	{
+	color:black;
+	font-size: 27px;
+	background-color :white;
+	
+}
+
+#blood 
+{
+	font-family :italic;
+	color:red;
+}
+

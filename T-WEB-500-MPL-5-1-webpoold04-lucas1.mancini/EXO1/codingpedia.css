@@ -1,0 +1,193 @@
+body
+{
+	width: 100%;
+	height: 100%;
+
+	min-height: 300px;
+	min-width: 100px;
+
+}
+ul
+{
+	border:1px solid black;
+}
+nav li
+{
+display:inline-block;
+padding-left:5px;
+}
+
+nav
+{
+	border:1px solid black;
+width:230px;
+float:right;
+MARGIN-TOP:7px;
+margin-right:7px;
+}
+
+
+article 
+{
+	font-family: Impact;
+	border:1px solid black;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	
+	
+}
+
+main
+{
+	display:flex;
+}
+
+section
+{
+margin-top:10px;
+margin-right:0px;
+	border:1px solid black;
+width:67%;
+float:left;
+
+}
+
+
+ 
+textarea
+{
+grid-column:2
+}
+
+select
+{
+grid-column:2
+}
+
+
+form{
+display:grid;
+grid-gap:10px;
+
+}
+
+input,select,textarea
+{ 
+	grid-column:2;
+	margin-top:20px;
+	resize: vertical;
+	width: 100%;
+
+
+ 
+}
+
+label
+{
+margin-left:5px;
+margin-top:20px;
+grid-column:1;
+
+}
+
+input[type=submit]
+{
+width:200px;
+margin-bottom:20px;
+}
+
+
+aside
+{
+width:25%;
+display:flex;
+float:right;
+padding:4px 4px 4px 4px;
+	border:1px solid black;
+
+margin-left:20px;
+margin-top:8px;
+
+}
+
+aside blockquote
+{
+	margin-left: 3px;
+}
+
+.radiobutton
+{
+display:inline-grid;
+align-items:center;
+grid-auto-flow:dense;
+}
+ header
+ {
+	 border:1px solid black;
+ }
+
+footer
+{
+
+margin-top:100px;
+border:1px solid black;
+width:98%;
+height:50px;
+text-align:center;
+}
+
+table,
+td {
+margin-top:10px;
+    border: 1px solid #333;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+input[type=submit]
+{
+	border-radius: 0px 20px 20px 0px;
+}
+
+
+article::after,section::after,aside::after,nav::after,footer::after,header::after
+{
+	position: absolute;
+	background-color: white;
+	transform: translateY(-50%);
+	top:3px;
+	left:  .5em;
+	padding:0 .5em;
+}
+
+
+article,section,aside,nav,footer,header
+{
+
+	position: relative;
+	padding: 1em;
+}
+
+
+
+header::after { content:"header"}
+article:after { content:"article"}
+section::after { content:"section"}
+aside::after { content:"aside"}
+nav::after { content:"nav"}
+footer::after { content:"footer"}
+
+
+@media all and (max-width: 620px){
+input
+{
+	width: 90%;
+}}

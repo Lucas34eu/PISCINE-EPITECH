@@ -1,0 +1,2 @@
+const exercise03 =require ('./exercise03');
+exercise03.countGs("gggggggg GGGG ggggG");
